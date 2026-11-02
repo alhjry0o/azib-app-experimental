@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "عازب | AZIB",
+    "slug": "azib",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "azib",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "backgroundColor": "#07040D",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.azib.mobile",
+      "infoPlist": {
+        "CFBundleDevelopmentRegion": "ar",
+        "CFBundleLocalizations": ["ar"],
+        "CFBundleDisplayName": "عازب | AZIB"
+      }
+    },
+    "android": {
+      "package": "com.azib.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#07040D"
+      }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#07040D"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
